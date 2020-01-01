@@ -1,37 +1,35 @@
 # Horus - Occlusion culling for Unity
 
-Occlusion culling increases rendering performance simply by not rendering geometry that is outside the view frustum or hidden by objects closer to the camera. Horus is a non-conservative occlusion culler and it performs better than Umbra (Unity's native occlusion culler) in small scenes such as interiors filled with lots of objects.
+* Occlusion culling increases rendering performance simply by not rendering geometry that is outside the view frustum or hidden by objects closer to the camera. Horus is a non-conservative occlusion culler and it performs better than Umbra (Unity's native occlusion culler) in small scenes such as interiors filled with lots of objects.
 
-Horus is currently in alpha stage!
+* Horus is currently in alpha stage!
 
-<p align="center">
 ![](https://github.com/FerzanK/Horus-Unity-Occlusion-Culling/blob/master/Documentation/VisibilityAnimation.gif)
-</p>
 
 ## Features
-Written in C++17
-Works better than Umbra in small spaces
-Fully dynamic, baking not required
+* Written in C++17
+* Works better than Umbra in small spaces
+* Fully dynamic, baking not required
 
 ## Getting Started
 
-Add HorusManager.cs located in C# folder to your scene and attach it to your camera
-Compile plugin with Visual Studio 2019, name DLL file horus.dll and place it in Plugins folder of your Unity project
+* Add HorusManager.cs located in C# folder to your scene and attach it to your camera
+* Compile plugin with Visual Studio 2019, name DLL file horus.dll and place it in Plugins folder of your Unity project
 
 
 ### Todo
 
-Unit tests and CI setup
-Provide pre-compiled binaries
-Custom memory allocator & memory pool
-Mesh -> Octree converter
-BVH/Octree based pre-culling
-Fiber based task system
-Non-static mesh support
-Transparent object support
-Skinned mesh support
-Better C# marshalling code
-Multicore support
+* Unit tests and CI setup
+* Provide pre-compiled binaries
+* Custom memory allocator & memory pool
+* Mesh -> Octree converter
+* BVH/Octree based pre-culling
+* Fiber based task system
+* Non-static mesh support
+* Transparent object support
+* Skinned mesh support
+* Better C# marshalling code
+* Multicore support
 
 ## Versioning
 
