@@ -2,9 +2,11 @@
 
 * Occlusion culling increases rendering performance simply by not rendering geometry that is outside the view frustum or hidden by objects closer to the camera. Horus is a non-conservative occlusion culler and it performs better than Umbra (Unity's native occlusion culler) in small scenes such as interiors filled with lots of objects.
 
-* Horus is currently in alpha stage!
+* **Horus is currently in alpha stage!**
 
-![](https://github.com/FerzanK/Horus-Unity-Occlusion-Culling/blob/master/Documentation/VisibilityAnimation.gif)
+<p align="center">
+<img src="https://github.com/FerzanK/Horus-Unity-Occlusion-Culling/blob/master/Documentation/VisibilityAnimation.gif"/>
+</p>
 
 ## Features
 * Written in C++17
