@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-* Add HorusManager.cs located in C# folder to your scene and attach it to your camera
+* Add HorusManager.cs located in UnityScript folder to your scene and attach it to your camera
 * Compile plugin with Visual Studio 2019, name DLL file horus.dll and place it in Plugins folder of your Unity project
 
 
